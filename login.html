@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Games Cloud</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Games Cloud</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="login-page">
+        <!-- Background -->
+        <div class="page-background">
+            <img src="login-bg.jpg" alt="Fundo abstrato com luzes neon">
+        </div>
+        
+        <!-- Formulário de Login -->
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Faça seu login</h2>
+                
+                <form class="login-form">
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="••••••••" required>
+                    </div>
+                    
+                    <div class="login-options">
+                        <label class="remember-me">
+                            <input type="checkbox"> Lembrar de mim
+                        </label>
+                        <a href="#" class="forgot-password">Esqueci minha senha</a>
+                    </div>
+                    
+                    <button type="submit" class="btn login-btn">Entrar</button>
+                    
+                    <div class="social-login">
+                        <p>Ou entre com:</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-btn google" aria-label="Login com Google">
+                                <svg viewBox="0 0 24 24" class="social-icon">
+                                    <path d="M12.545 10.239v3.821h5.445c-0.712 2.315-2.647 3.972-5.445 3.972-3.332 0-6.033-2.701-6.033-6.032s2.701-6.032 6.033-6.032c1.498 0 2.866 0.549 3.921 1.453l2.814-2.814c-1.784-1.664-4.13-2.657-6.735-2.657-5.523 0-10 4.477-10 10s4.477 10 10 10c8.396 0 10-7.496 10-10 0-0.671-0.068-1.369-0.182-2.061h-9.818z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn facebook" aria-label="Login com Facebook">
+                                <svg viewBox="0 0 24 24" class="social-icon">
+                                    <path d="M22.675 0h-21.35c-0.732 0-1.325 0.593-1.325 1.325v21.351c0 0.731 0.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463 0.099 2.795 0.143v3.24l-1.918 0.001c-1.504 0-1.795 0.715-1.795 1.763v2.313h3.587l-0.467 3.622h-3.12v9.293h6.116c0.73 0 1.323-0.593 1.323-1.325v-21.35c0-0.732-0.593-1.325-1.325-1.325z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-btn twitter" aria-label="Login com Twitter">
+                                <svg viewBox="0 0 24 24" class="social-icon">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="register-link">
+                        Não tem conta? <a href="#">Cadastre-se</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Games Cloud. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
