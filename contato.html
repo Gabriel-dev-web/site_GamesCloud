@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Games Cloud</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Games Cloud</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./login.html">Entrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <!-- Background -->
+        <div class="page-background">
+            <img src="contact-bg.jpg" alt="Fundo abstrato com elementos de jogos">
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Fale Conosco</h2>
+                <p>Tire dúvidas, envie sugestões ou solicite suporte</p>
+
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" required>
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="suporte">Suporte Técnico</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="parceria">Parceria</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" rows="5" placeholder="Descreva sua solicitação..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn contact-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Games Cloud. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
